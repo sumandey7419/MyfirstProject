@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(aqua, burlywood, indianred);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.heading{
+display: block;
+margin: auto;
+text-align: center;
+
+
+
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.table,.v2{
+width:40% ;
+
+}
+video{
+    position: relative;
+    width:100%;
+    height: 50vh;
+    display:flex;
+    align-items: right;
+    
+}
+
+
+
+.ending{
+    font-size: 20px;
+    padding: 20px;
+display: block;
+margin: auto;
+text-align: center;
+
+}
+ th{
+    padding: 15px 50px;
+}

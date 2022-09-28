@@ -1,0 +1,51 @@
+body{
+    background-color: #50faff7a;
+}
+    #quote{
+        text-align: center;
+        font-size: medium;
+        font-family: verdana;
+        font-size: 20px;
+     margin-top:1%;
+    }
+    #begining{
+        font-size:25px;
+        font-family: 'Franklin Gothic Medium';
+    }
+    .doc{
+        margin-top:3%;
+    }
+    .doc img{
+        width:300px;
+        height:300px;
+        margin-left:30%;
+        margin-top:2%;
+        margin-bottom: 2%;
+    }
+     .name{
+        font-size :30px;
+        color:rgb(14, 27, 60);
+        font-family: 'Lucida Sans Unicode';
+        text-decoration: underline;
+
+        
+    }
+    .Info{
+        margin: left 2%;
+        max-width: 90%;
+        font-size: 25px;
+        padding: 50px;
+    }
+
+ .t1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 1%;
+
+ }
+ .para{
+     text-align: center;
+ }

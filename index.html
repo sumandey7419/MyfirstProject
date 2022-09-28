@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Doctors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading1">
+        <h1>A BIG SALUTE TO CORONA WARRIORS</h1>
+    </div>
+    <div class="heading2">
+        <a href="#">HOME</a>
+        <a href="Doctors.html">DOCTOR-INFO</a>
+        <a class="nav" href="statistics.html">STASTISTICS</a>
+        <a href="Corona_Info.html">CORONA-INFO</a>
+        <a href="contact.html">CONTACT US</a>
+    </div>
+    <!-- Slides -->
+    <div class="slides">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/img31.jpg" alt="img1">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img11.jpg" alt="img2">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img33.jpg" alt="img3">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/lastpic.jpg" alt="img3">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img4.jpg" alt="img3">
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 900); // Change image every 2 seconds
+        }
+    </script>
+    <div class="Intro">
+        <p><b>In response to the global pandemic, the under-resourced doctors are facing unprecedented challenges. The list of the sleep-deprived heroes includes doctors, nurses, medical cleaners, pathologists, paramedics, ambulance drivers, and health-care administrators. In the fight against coronavirus, the brave medical army stands strong with thermometers, stethoscopes, and ventilators as their weapons. Not to forget, medical researchers are working day in and night out against all odds, hoping to find the antidote to the disease.</b> </p><br><br>
+        <p><b>Every day, the selfless warriors are giving it their all in health-care settings while cutting themselves off from their families and loved ones. The sacrifice that they are making for the safety and welfare of humanity is priceless and deserves lifelong gratitude on our end. Most importantly, we must reassess the value health-care workers hold in our lives and the kind of treatment they get from us.
+        </b></p><br><br>
+        <p><b>Since the coronavirus outbreak, health-care professionals have not only experienced the gratification of healing patients and saving their lives but have also lost many battles along the way. On top of that, many doctors have even sacrificed their own lives in the line of duty.
+        </b></p>
+    </div>
+
+
+
+
+    <div class="quotes">
+        <div class="quote" id="quote1">
+            <p>People need to respect doctors and have an attitude for gratitude. When we are doing our COVID-19 rounds, we can’t go near our families, we need to stay separate from our children. - Dr Shalini Joshi, Fortis Hospital
+        </div>
+
+        <div class="quote" id="quote2">
+            <p>No doctor will want their patients to suffer in any way, but please realise that doctors are not gods. We are trying our best to help patients. People need to trust their doctors. - Dr Tejas Thakker, Apollo Hospitals</p>
+        </div>
+
+        <div class="quote" id="quote3">
+            <p>Today, when the country is fighting such a big war against Corona, doctors have saved millions of lives by working hard day and night. - Prime Minister Narendra Modi</p>
+        </div>
+    </div>
+    <br><br><br>
+
+    <div class="para1">
+        <p>
+            <h3>For information related to COVID-19</h3><br>Call the state helpline number or ministry of health and family welfare, Government of India's 
+            <br> 24*7 helpline numbers 1075 (Toll Free) or 011-23978046 Email ncov2019@gov.in , ncov2019@gmail.com<br>
+        </p>
+    </div>
+
+
+
+</body>
+
+</html>
